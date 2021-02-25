@@ -31,7 +31,7 @@ public:
 
 // 3) Sa nu existe spatii lasate intre linii acolo unde nu necesita acest lucru
 
-// 4) La fiecare if, chiar daca nu necesita obligatoriu, se vor deschide acolade pentru a fii codul mai usor de citit.
+// 4) La fiecare if, chiar daca nu necesita obligatoriu, se vor deschide acolade pentru a fi codul mai usor de citit.
 
 // 5) Mutarea destructorilor in josul clasei pentru a pastra o ordine clara si pentru a-l putea gasi cu usurinta din orice clasa.
 
