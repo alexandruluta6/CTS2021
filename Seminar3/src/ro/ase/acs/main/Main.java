@@ -27,15 +27,18 @@ public class Main {
 				c2 = (Car)car.clone();
 				c2.setCapacity(1900);
 				System.out.println(car.getCapacity());
+				
 			} catch (CloneNotSupportedException e) {
 				e.printStackTrace();
 			}
 		}
+		
 		Integer x = 5;
 		int y = x;
 		System.out.println(y);
 		
 		List<Integer> list = new ArrayList<>();
+		
 		list.add(4);
 		list.add(5);
 		list.add(6);
@@ -47,6 +50,7 @@ public class Main {
 		list.remove(2);
 		list.add(1, 3);
 		System.out.println();
+		
 		for(Integer i : list) {
 			System.out.println(i);
 		}

@@ -37,12 +37,15 @@ public final class Car extends Vehicle implements Taxable {
 	@Override
 	public double computeTax() {
 		float tax = 0;
+		
 		if(capacity < 2000) {
 			tax = (float)capacity / 1000 * 50;
 		}
+		
 		else {
 			tax = (float)capacity / 1000 * 100;
 		}
+		
 		return tax < MIN_TAX ? MIN_TAX : tax;
 	}
 
