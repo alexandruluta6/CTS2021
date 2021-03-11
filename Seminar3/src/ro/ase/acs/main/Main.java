@@ -11,11 +11,11 @@ import ro.ase.acs.interfaces.Taxable;
 public class Main {
 
 	public static void main(String[] args) {
-		Car car = new Car("Dacia", 90, "black", 1400);
+		Car car = new Car("Dacia ", 90, "black", 1400);
 		System.out.println(car);
 		
 		Taxable t = car;
-		double tax = t.computeTax();
+		double tax =  t.computeTax();
 		System.out.println(tax);
 		
 		Vehicle v = new Car();
@@ -54,7 +54,6 @@ public class Main {
 		for(Integer i : list) {
 			System.out.println(i);
 		}
-		
 		list.set(0, 9);
 		System.out.println();
 		
@@ -62,5 +61,4 @@ public class Main {
 			System.out.println(it.next());
 		}
 	}
-
 }
